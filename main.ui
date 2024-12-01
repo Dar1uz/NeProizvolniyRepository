@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>976</width>
+    <height>772</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>961</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Название сорта</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Степень обжарки</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Тип</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Описание вкуса</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Цена</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Объем</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
